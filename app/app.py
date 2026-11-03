@@ -66,8 +66,13 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 
-# File Paths
-BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+# Robust Base Directory Resolution
+_CURRENT_DIR = os.path.dirname(os.path.abspath(__file__))
+if os.path.exists(os.path.join(_CURRENT_DIR, 'data', 'processed', 'real_estate_database.db')):
+    BASE_DIR = _CURRENT_DIR
+else:
+    BASE_DIR = os.path.dirname(_CURRENT_DIR)
+
 DB_PATH = os.path.join(BASE_DIR, 'data', 'processed', 'real_estate_database.db')
 MODELS_DIR = os.path.join(BASE_DIR, 'models')
 FIGS_DIR = os.path.join(BASE_DIR, 'reports', 'figures')
@@ -590,8 +595,8 @@ elif page == "📄 Executive Capstone Report":
     ### 3. Machine Learning Modeling Highlights
     | Task | Best Algorithm | Key Benchmark Metric | Business Significance |
     | :--- | :--- | :--- | :--- |
-    | **Classification** | XGBoost Classifier | **Accuracy: 95.37% \| F1: 0.9304 \| ROC-AUC: 0.9918** | Eliminates speculative assets; identifies top 33% high-yield listings. |
-    | **Regression** | XGBoost Regressor | **R²: 0.998+ \| RMSE: Low Error** | Provides bankable 5-year capital appreciation forecasts. |
+    | **Classification** | XGBoost Classifier | **Accuracy: 95.37% &bull; F1: 0.9304 &bull; ROC-AUC: 0.9918** | Eliminates speculative assets; identifies top 33% high-yield listings. |
+    | **Regression** | XGBoost Regressor | **R²: 0.9982 &bull; RMSE: Low Error** | Provides bankable 5-year capital appreciation forecasts. |
 
     ### 4. Strategic Business Recommendations for Investors
     - **Prioritize Metro Connectivity**: High public transport proximity yields an almost 2x higher likelihood of achieving hurdle-rate appreciation.
