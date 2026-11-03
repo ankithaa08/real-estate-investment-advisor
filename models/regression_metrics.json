@@ -1,0 +1,29 @@
+{
+  "champion_model": "XGBoost",
+  "models_comparison": {
+    "Linear Regression": {
+      "RMSE": 16.535,
+      "MAE": 12.726,
+      "R2_Score": 0.9919,
+      "MAPE_Pct": 7.629
+    },
+    "Ridge Regression": {
+      "RMSE": 16.535,
+      "MAE": 12.726,
+      "R2_Score": 0.9919,
+      "MAPE_Pct": 7.629
+    },
+    "Random Forest": {
+      "RMSE": 14.431,
+      "MAE": 10.607,
+      "R2_Score": 0.9938,
+      "MAPE_Pct": 3.065
+    },
+    "XGBoost": {
+      "RMSE": 7.772,
+      "MAE": 5.518,
+      "R2_Score": 0.9982,
+      "MAPE_Pct": 1.678
+    }
+  }
+}

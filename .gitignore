@@ -1,0 +1,26 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+.env
+.venv/
+venv/
+ENV/
+
+# Large datasets & full databases (>30MB)
+data/raw/
+raw_data/
+data/processed/*full*
+data/processed/*.csv
+*.log
+
+# MLflow local cache
+mlruns/.trash/
+
+# System & IDE files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

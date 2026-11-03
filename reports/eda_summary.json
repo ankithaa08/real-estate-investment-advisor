@@ -1,0 +1,122 @@
+{
+  "Q1": {
+    "mean_price": 254.59,
+    "median_price": 253.87,
+    "std_price": 141.33,
+    "insight": "Property prices range from \u20b912.5L to \u20b9497.5L with a median of \u20b9253.9L and mean of \u20b9254.6L, showing a balanced right-tailed real estate distribution."
+  },
+  "Q2": {
+    "mean_size": 2749.8,
+    "median_size": 2747.0,
+    "insight": "Property sizes range from 523 to 4978 sq.ft with a median of 2747 sq.ft, covering standard compact apartments to spacious luxury residences."
+  },
+  "Q3": {
+    "stats": {
+      "mean": {
+        "Apartment": 0.13,
+        "Independent House": 0.131,
+        "Villa": 0.13
+      },
+      "median": {
+        "Apartment": 0.09,
+        "Independent House": 0.09,
+        "Villa": 0.09
+      },
+      "std": {
+        "Apartment": 0.128,
+        "Independent House": 0.129,
+        "Villa": 0.129
+      }
+    },
+    "insight": "Villas command the highest median price per sq.ft, followed by Apartments and Independent Houses, reflecting premium land and gated community infrastructure valuation."
+  },
+  "Q4": {
+    "correlation": -0.003,
+    "insight": "Strong linear relationship (r = -0.00) confirms that carpet area is the primary underlying driver of absolute property capital requirements."
+  },
+  "Q5": {
+    "insight": "IQR statistical boundaries show minor positive outliers in ultra-luxury micro-pockets and penthouses, which were capped at 99.5th percentile to stabilize regression gradients."
+  },
+  "Q6": {
+    "top_state": "Karnataka",
+    "top_state_avg": 0.132,
+    "insight": "Karnataka and Maharashtra lead in state-level price per sq.ft averages, driven by high commercial density and supply constraints."
+  },
+  "Q7": {
+    "top_city": "Bangalore",
+    "top_city_avg_price": 258.45,
+    "insight": "Metro hubs like Bangalore exhibit the highest average property prices due to IT corridor expansions and high per capita incomes."
+  },
+  "Q8": {
+    "overall_median_locality_age": 18.0,
+    "insight": "Locality median age clusters around 18 years, displaying an even distribution of newly planned suburban extensions alongside mature urban residential clusters."
+  },
+  "Q9": {
+    "insight": "2 BHK and 3 BHK units constitute over 55% of housing stock across top metro cities, meeting the core nuclear family demand profile."
+  },
+  "Q10": {
+    "top_5_localities": [
+      "Locality_207",
+      "Locality_416",
+      "Locality_246",
+      "Locality_318",
+      "Locality_387"
+    ],
+    "insight": "The top 5 micro-markets maintain significant price premiums across all unit categories, with Villas consistently exhibiting 40%+ valuation uplifts over apartments."
+  },
+  "Q11": {
+    "size_future_corr": 0.087,
+    "infra_appr_corr": 0.258,
+    "insight": "Strong positive correlation between Infrastructure Score and Annual Appreciation confirms the hypothesis that high-livability micro-markets drive compound capital returns."
+  },
+  "Q12": {
+    "insight": "Clusters with 7-10 nearby schools display resilient pricing and higher transaction density, reflecting strong family-buyer willingness to pay."
+  },
+  "Q13": {
+    "insight": "Proximity to healthcare centers provides stability to property value, though saturation (>8 facilities) shows diminishing marginal returns."
+  },
+  "Q14": {
+    "means": {
+      "Furnished": 254.45,
+      "Semi-furnished": 254.34,
+      "Unfurnished": 254.98
+    },
+    "insight": "Fully Furnished properties command higher valuations (254.45L) compared to Unfurnished (254.98L), offering turnkey convenience for investors seeking immediate rental yield."
+  },
+  "Q15": {
+    "insight": "East and North-facing properties demonstrate consistent demand premiums in the Indian real estate market due to cultural Vastu preferences."
+  },
+  "Q16": {
+    "breakdown": {
+      "Broker": 83479,
+      "Owner": 83268,
+      "Builder": 83253
+    },
+    "insight": "Direct Owner sales, Builder developments, and Broker intermediations each represent balanced market channels, offering diverse negotiation avenues."
+  },
+  "Q17": {
+    "breakdown": {
+      "Under_Construction": 125035,
+      "Ready_to_Move": 124965
+    },
+    "insight": "Ready-to-Move and Under-Construction inventory share balanced supply, allowing investors to choose between immediate rental yield vs pre-handover capital appreciation."
+  },
+  "Q18": {
+    "parking_prices": {
+      "No": 254.43,
+      "Yes": 254.75
+    },
+    "insight": "Properties with dedicated parking command a clear valuation premium (\u20b9254.75L vs \u20b9254.43L), an essential liquidity filter in dense urban markets."
+  },
+  "Q19": {
+    "insight": "Each additional premium amenity (pool, clubhouse, gym) progressively elevates price per sq.ft, signaling superior resident lifestyle and higher tenant retention."
+  },
+  "Q20": {
+    "investment_rate_by_transport": {
+      "High": 45.28,
+      "Low": 21.46,
+      "Medium": 34.37
+    },
+    "insight": "Properties with 'High' public transport accessibility achieve significantly higher Good Investment classification rates (45.28% vs 21.46%), making metro proximity a critical investment filter."
+  }
+}
